@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Notebooks
+.ipynb_checkpoints/
+*.nbconvert/
+*.ipynb_convert/
+
+# Hugging Face / model files
+cache/
+.huggingface/
+**/results/
+**/runs/
+**/wandb/
+**/checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Data (keep .gitkeep if needed)
+data/
+!data/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
